@@ -1,0 +1,27 @@
+win + R
+cmd -- вызов консоли
+
+КОМАНДЫ ДЛЯ РАБОТЫ С ЛОКАЛЬНЫМ РЕПОЗИТОРИЕМ	
+		git init - начало работы с репозиторием
+		git status - отображение состояния файлов
+			не отслеживаемый
+			отслеживаемый
+			изменённый
+			сохранённый
+		git add *.c -- добавить файлы в папке, имеющие расширение "с"
+		git add * -- добавить все файлы в папке
+		git add test.test -- добавить конкретный фалй
+		git commit -m "comments" -- "жёсткое" сохранение изменений в БД
+		
+		git log - история сохранений
+		git checkout HEAD - первоначальная стадия проекта самая самая первая
+		git checkout master -- самый последний элемент
+
+		git checkout 64f60b3101c7b6eceb4f03a5756ad35dd644fa64 -- переход на соотвествующую "историю"
+						commit 64f60b3101c7b6eceb4f03a5756ad35dd644fa64 (HEAD -> master)
+						Author: TestGIT <test@test.ru>
+						Date:   Wed Apr 7 18:40:12 2021 +0300
+
+КОМАНДЫ ДЛЯ РАБОТЫ С УДАЛЁННЫМ РЕПОЗИТОРИЕМ		
+		git clone https://github.com/Protuberanec/learn_Cpp . -- копировать проект в корневую папку
+		git push -u https://github.com/Protuberanec/test -- добавить данные в репозиторий
