@@ -21,7 +21,15 @@ cmd -- вызов консоли
 						commit 64f60b3101c7b6eceb4f03a5756ad35dd644fa64 (HEAD -> master)
 						Author: TestGIT <test@test.ru>
 						Date:   Wed Apr 7 18:40:12 2021 +0300
+		git checkout 64f60b3
+		
+РАБОТА С ВЕТКАМИ
+		git branch -- посмотреть на какой ветке
+		git checkout [ветка] -- перейти на ветку
+		git checkout -b [ветка] -- создание переход в ветку
 
 КОМАНДЫ ДЛЯ РАБОТЫ С УДАЛЁННЫМ РЕПОЗИТОРИЕМ		
 		git clone https://github.com/Protuberanec/learn_Cpp . -- копировать проект в корневую папку
 		git push -u https://github.com/Protuberanec/test -- добавить данные в репозиторий
+		
+		
